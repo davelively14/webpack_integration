@@ -1,4 +1,20 @@
 {
   "repository": {},
-  "dependencies": {}
+  "dependencies": {},
+  "name": "webpack_integration",
+  "description": "To start your Phoenix app:",
+  "version": "1.0.0",
+  "main": "./priv/static/js/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch-stdin --progress --color"
+  },
+  "author": "Dave Lively",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.13.1"
+  }
 }
