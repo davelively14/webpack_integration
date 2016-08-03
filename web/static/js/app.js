@@ -13,7 +13,7 @@
 // to also remove its path from "config.paths.watched".
 // import "phoenix_html"
 
-alert('webpack compiled me.');
+alert('webpack compiled me.')
 
 // Import local files
 //
