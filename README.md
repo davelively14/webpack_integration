@@ -23,14 +23,14 @@ Clear out the vast majority of the `package.json` file. Make it look like this:
 
 ## Adding webpack
 
-***Deviation***
+***Deviation***<br>
 If you're going to use git with a remote, it's easier to do it now. Next step is npm init, where you can "register" your remote git.
-***End Deviation***
+<br>***End Deviation***
 
 Initialize npm from the root directory:
-***Deviation***
-Within `package.json`, I specified the output file as `./priv/static/js/app.js`. If you went with the default (`app.js`) during npm init, you will have to manually enter it under the `"main"` property.
-***End Deviation***
+
+***Deviation***<br>Within `package.json`, I specified the output file as `./priv/static/js/app.js`. If you went with the default (`app.js`) during npm init, you will have to manually enter it under the `"main"` property.<br>***End Deviation***
+
 ```
 npm init
 ```
